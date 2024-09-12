@@ -390,7 +390,7 @@ if __name__ == "__main__":
         if stat == "ok":
             break
         print("尝试重新预约")
-        time.sleep(30)
+        time.sleep(20)
     
     s.wechatNotice("图书馆预约{}".format("成功" if stat == "ok" else "失败"), msg)
     print(stat, msg)
