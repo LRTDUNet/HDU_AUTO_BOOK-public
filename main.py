@@ -214,7 +214,7 @@ import time
 time_zone = 8  # 时区
 
 # 两天后日期
-key = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'][(datetime.now().weekday() + 2) % 7]
+key = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'][(datetime.now().weekday() + 1) % 7]
 
 def get_one_study_room_seat(floor):
     if floor == 2:
